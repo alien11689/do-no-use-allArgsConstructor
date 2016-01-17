@@ -3,7 +3,7 @@ package com.github.alien11689.builder
 import spock.lang.Specification
 
 class PersonTest extends Specification {
-    def 'use generated allArgsConstructor'() {
+    def 'use builder'() {
         when:
             Person p = Person.builder()
                     .firstName('John')
