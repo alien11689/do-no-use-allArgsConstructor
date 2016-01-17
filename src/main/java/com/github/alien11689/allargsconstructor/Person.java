@@ -10,4 +10,8 @@ public class Person {
     private final String lastName;
     private Integer age;
     private String email;
+
+    public Person(String firstName, String lastName, Integer age) {
+        this(firstName, lastName, age, null);
+    }
 }
